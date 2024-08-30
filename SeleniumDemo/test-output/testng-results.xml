@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-30T17:13:53 EDT" name="Default suite" finished-at="2024-08-30T17:14:44 EDT" duration-ms="50966">
+    <groups>
+    </groups>
+    <test started-at="2024-08-30T17:13:53 EDT" name="Default test" finished-at="2024-08-30T17:14:44 EDT" duration-ms="50966">
+      <class name="Demo.OrangeHRM">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Demo.OrangeHRM@7ce026d3]" started-at="2024-08-30T17:13:53 EDT" name="setup" finished-at="2024-08-30T17:14:03 EDT" duration-ms="9934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidCredentials()[pri:1, instance:Demo.OrangeHRM@7ce026d3]" started-at="2024-08-30T17:14:03 EDT" name="InvalidCredentials" finished-at="2024-08-30T17:14:16 EDT" duration-ms="13051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidCredentials -->
+        <test-method signature="loginTestWithValidCredentials()[pri:2, instance:Demo.OrangeHRM@7ce026d3]" started-at="2024-08-30T17:14:16 EDT" name="loginTestWithValidCredentials" finished-at="2024-08-30T17:14:27 EDT" duration-ms="10326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithValidCredentials -->
+        <test-method signature="logOut()[pri:3, instance:Demo.OrangeHRM@7ce026d3]" started-at="2024-08-30T17:14:27 EDT" name="logOut" finished-at="2024-08-30T17:14:39 EDT" duration-ms="12215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Demo.OrangeHRM@7ce026d3]" started-at="2024-08-30T17:14:39 EDT" name="tearDown" finished-at="2024-08-30T17:14:44 EDT" duration-ms="5325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Demo.OrangeHRM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
